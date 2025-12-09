@@ -105,17 +105,14 @@ PM-Test/
 - **TypeScript** - Type safety
 - **Vite** - Build tool and dev server
 - **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animation library
-- **Swiper** - Touch slider for testimonials carousel
-- **React Icons** - Icon library
 
 ## 📝 Assumptions Made
 
 ### Design & Branding
 - **Primary Color**: Used `#E31E24` (red) as the main brand color based on Figma designs
-- **Typography**: Implemented Inter font from Google Fonts for modern, professional appearance
+- **Typography**: Implemented fonts from Figma provided
 - **Spacing**: Interpreted spacing and padding based on visual hierarchy in Figma screenshots
-- **Icons**: Used react-icons library for consistent iconography where specific icons weren't provided
+- **Icons**: Implemented assets from the Figma
 
 ### Functionality
 - **Navigation Dropdowns**: Implemented dropdown menus as placeholders (no actual dropdown content as it wasn't specified)
@@ -168,9 +165,7 @@ PM-Test/
 
 #### Code Quality
 - Implement Storybook for component documentation
-- Add ESLint and Prettier configurations
 - Set up Husky for pre-commit hooks
-- Add comprehensive TypeScript types for all props
 - Implement error boundaries for better error handling
 
 #### Design Enhancements
